@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>개인정보처리방침 | 트립줌인</title>
+  <style>
+    body {
+      max-width: 640px;
+      margin: 48px auto;
+      padding: 0 24px;
+      font-family: system-ui, sans-serif;
+      line-height: 1.8;
+      color: #18332d;
+      background: #fafbf8;
+      word-break: keep-all;
+    }
+    h1 { font-size: 2rem; }
+    h2 { margin-top: 2rem; font-size: 1.2rem; }
+    a { color: #086653; }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="./index.html">← 트립줌인 홈</a>
+    <h1>개인정보처리방침</h1>
+    <p>시행일 2026년 11월 18일</p>
+
+    <h2>Google Drive 접근 목적과 범위</h2>
+    <p>트립줌인은 채널 운영자가 여행 영상을 제작하는 도구입니다.
+      운영자가 연결한 Google 계정의 Drive 파일을 조회하고 관리할 수 있는
+      권한을 요청합니다. 제작 과정에서는 파일과 폴더 이름, 식별자,
+      편집 템플릿, 기준 음성, 영상 제작용 원본을 읽습니다.
+      완성된 MP4를 지정한 폴더에 저장하고 중복 저장 여부를 확인합니다.</p>
+
+    <h2>자료를 처리하는 곳</h2>
+    <p>영상 편집과 검수는 GitHub Actions 실행 환경에서 이루어집니다.
+      이 과정에서 제작에 필요한 원본이 Google Drive에서 실행 환경으로
+      전송됩니다. Drive 연결에 사용하는 인증 정보는 비공개 저장소의
+      GitHub Actions Secrets에 보관합니다.</p>
+
+    <h2>보관과 삭제</h2>
+    <p>Drive의 원본과 완성 영상은 운영자가 삭제할 때까지 해당 계정에
+      보관됩니다. 실행 중 생성한 임시 작업 파일은 작업 종료 시 정리합니다.
+      검토용으로 별도 보관한 자료와 실행 기록은 GitHub 워크플로에 설정된
+      보관 기간에 따라 삭제됩니다.</p>
+
+    <h2>접근 권한 철회</h2>
+    <p>운영자는 <a href="https://myaccount.google.com/connections">Google 계정의 연결 관리</a>에서
+      트립줌인을 선택해 Drive 접근 권한을 철회할 수 있습니다.
+      이미 저장된 영상은 Drive에서 직접 삭제할 수 있습니다.</p>
+
+    <h2>문의</h2>
+    <p>자료 처리 또는 삭제에 관한 문의는
+      <a href="mailto:jhj27692769@gmail.com">jhj27692769@gmail.com</a>으로 보내 주세요.</p>
+  </main>
+</body>
+</html>
